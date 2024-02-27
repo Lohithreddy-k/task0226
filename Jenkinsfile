@@ -14,7 +14,7 @@ pipeline
 			{
 			steps
 				{
-				javac Demo.java
+				javac java Demo.java
 				python3 main.py
 				}
 			}
