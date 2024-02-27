@@ -14,7 +14,7 @@ pipeline
 			{
 			steps
 				{
-				bat "mvn clean"
+				sh "mvn clean"
 				}
 			}
 		}
