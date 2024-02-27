@@ -15,7 +15,7 @@ pipeline
 			steps
 				{
 				javac Demo.java
-				"python3 main.py"
+				python3 main.py
 				}
 			}
 		}
