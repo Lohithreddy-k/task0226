@@ -15,7 +15,6 @@ pipeline
 			steps
 				{
 				bat "javac Demo.java"
-				bat "java Demo.java"
 				bat "main.py"
 				}
 			}
