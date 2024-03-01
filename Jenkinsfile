@@ -1,6 +1,8 @@
 pipeline 
 	{	
-	agent any
+	agent {
+		label "s1"
+	}
 	stages
 		{
 		stage("git")
@@ -14,7 +16,7 @@ pipeline
 			{
 			steps
 				{
-				sh "mvn clean install"
+				sh "mvn clean"
 				}
 			}
 		}
